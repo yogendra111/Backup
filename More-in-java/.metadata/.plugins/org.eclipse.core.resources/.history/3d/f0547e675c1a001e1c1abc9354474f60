@@ -1,0 +1,16 @@
+package app.kafka.services;
+
+import org.springframework.kafka.annotation.KafkaListener;
+
+import app.kafka.payloads.User;
+
+public class JsonKafkaConsumer {
+
+
+
+//	@KafkaListener(topics = "myTopic", groupId = "myGroup")
+//	public void consume(User data) {
+//		LOGGER.info(String.format("Json Message Received -> %s", data));
+//	}
+	
+}

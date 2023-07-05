@@ -1,0 +1,5 @@
+package app.kafka.services;
+
+public class KafkaConsumer {
+
+}

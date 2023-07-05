@@ -1,0 +1,25 @@
+package com.ratingservice.services.impl;
+
+import java.util.List;
+
+import com.ratingservice.entities.Rating;
+import com.ratingservice.services.RatingService;
+
+public class RatingServiceImpl implements RatingService{
+
+	@Override
+	public Rating createRating(Rating rating) {
+		return null;
+	}
+
+	@Override
+	public List<Rating> getAllRating() {
+		return null;
+	}
+
+	@Override
+	public Rating getRating(String id) {
+		return null;
+	}
+
+}

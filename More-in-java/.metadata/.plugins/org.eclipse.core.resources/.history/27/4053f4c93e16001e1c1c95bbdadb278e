@@ -1,0 +1,7 @@
+package com.ratingservice.services;
+
+import com.ratingservice.entities.Rating;
+
+public interface RatingService {
+	Rating createRating(Rating rating);
+}

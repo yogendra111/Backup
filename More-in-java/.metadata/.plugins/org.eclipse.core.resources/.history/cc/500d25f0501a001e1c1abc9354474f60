@@ -1,0 +1,5 @@
+package app.kafka.payloads;
+
+public class User {
+
+}

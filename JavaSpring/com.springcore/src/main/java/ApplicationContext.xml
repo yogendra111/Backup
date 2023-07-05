@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+      
+<bean id="e" class="com.firstproject.app.Student">
+<constructor-arg value="10" type="int"></constructor-arg>
+<constructor-arg value="Ram"></constructor-arg> 
+</bean> 
+
+<bean id="emp" class="com.firstproject.app.Employee">
+<property name="empId" value="10" />
+<property name="empName" value="Raj" />
+<property name="address">
+<list>
+<value>12-c North</value>
+<value>Kailash</value>
+</list>
+</property>
+</bean>
+      
+</beans>  

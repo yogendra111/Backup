@@ -1,0 +1,5 @@
+package app.wikimedia.services;
+
+public class WikimediaProducer {
+
+}

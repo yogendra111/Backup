@@ -1,0 +1,5 @@
+package com.userservice.configs;
+
+public class SpringBeanConfig {
+
+}
